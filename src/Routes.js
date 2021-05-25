@@ -13,7 +13,7 @@ export default class Routes extends Component {
       <Switch>
         <Redirect
           exact
-          from="/pok-mon"
+          from="/"
           to="/pokemon"
         />
         <Route
