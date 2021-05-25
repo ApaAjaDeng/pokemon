@@ -92,7 +92,6 @@ export const CatchPokemon = () => {
     history.push('/pokemon-detail/' + name)
   }
 
-
   //Successfully caught a pokemon
   if (random > 0.5) {
     return (
