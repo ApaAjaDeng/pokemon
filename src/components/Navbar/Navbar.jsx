@@ -9,7 +9,7 @@ import * as style from './style'
 function Navbar() {
   return (
     <div css={style.base}>
-      <Link css={style.containerLink1} to={"/pokemon-list"}>
+      <Link css={style.containerLink1} to={"/pokemon"}>
         <img alt="Pokedex" css={style.iconNav} src={Pokedex}></img>
       </Link>
       <Link css={style.containerLink2} to={"/my-pokemon-list"}>

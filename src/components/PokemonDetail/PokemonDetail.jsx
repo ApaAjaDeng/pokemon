@@ -27,7 +27,6 @@ export const PokemonDetail = () => {
   });
   if (loading) return 'Loading...';
   if (error) return `Error! ${error.message}`;
-  console.log('Response from server', data.pokemon);
 
   const btnCatchPokemon = () => {
     history.push('/catch-pokemon/' + name)

@@ -14,7 +14,7 @@ export default class Routes extends Component {
         <Redirect
           exact
           from="/"
-          to="/pokemon"
+          to="/pokemon/"
         />
 
         <Route

@@ -92,7 +92,6 @@ export const btnSubmit = css`
  border-radius:5px;
  border:1px solid #566963;
  display:inline-block;
- cursor:pointer;
  color:#fcfcfc;
  font-family:Trebuchet MS;
  font-size:15px;
@@ -114,6 +113,7 @@ export const btnSubmitError = css`
  border-radius:5px;
  border:1px solid #566963;
  display:inline-block;
+ cursor: disabled;
  color:#fcfcfc;
  font-family:Trebuchet MS;
  font-size:15px;
