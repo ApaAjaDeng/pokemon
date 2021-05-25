@@ -16,7 +16,6 @@ export default class Routes extends Component {
           from="/"
           to="/pokemons"
         />
-
         <Route
           component={PokemonList}
           exact
