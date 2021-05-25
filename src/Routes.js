@@ -11,16 +11,10 @@ export default class Routes extends Component {
   render() {
     return (
       <Switch>
-        <Redirect
-          exact
-          from="/"
-          to="/pokemon"
-        />
-
         <Route
           component={PokemonList}
           exact
-          path='/pokemon'
+          path='/'
         />
 
         <Route
