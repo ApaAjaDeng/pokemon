@@ -80,13 +80,12 @@ export const CatchPokemon = () => {
   const onClickBtnSubmit = () => {
     submitData = [name, givenName, frontImg]
     caughtPokemonList.push(submitData)
-    console.log(caughtPokemonList)
     localStorage.setItem('caughtPokemonList', JSON.stringify(caughtPokemonList))
-    history.push('/pokemon-list')
+    history.push('/')
   }
   const onClickBtnReleased = () => {
     if (window.confirm("Are you sure you want to released the Pokemon ?")) {
-      history.push('/pokemon-list')
+      history.push('/')
     }
   }
   const onClickBtnBack = () => {

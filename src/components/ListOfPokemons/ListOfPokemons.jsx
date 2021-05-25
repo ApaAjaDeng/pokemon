@@ -75,7 +75,6 @@ export const ListOfPokemons = () => {
   });
   if (loading) return 'Loading...';
   if (error) return `Error! ${error.message}`;
-  console.log('Response from server', data.pokemons.results);
 
   return (
     <div>
