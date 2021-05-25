@@ -14,13 +14,13 @@ export default class Routes extends Component {
         <Redirect
           exact
           from="/"
-          to="/pokemon-list"
+          to="/pokemon"
         />
 
         <Route
           component={PokemonList}
           exact
-          path='/pokemon-list'
+          path='/pokemon'
         />
 
         <Route
